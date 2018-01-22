@@ -1,8 +1,7 @@
-body{
-  background-image: url("../image/space1.jpg");
+ body{
   background-repeat: no-repeat;
   background-size:cover;
-  background-color: pink;
+  /* background-color: pink; */
 
 }
 #giff{
@@ -363,14 +362,6 @@ padding: 30px;
 }
 
 
-
-
-#img{
-  /*position:absolute;
-   left:0px;
-   top:0px;
-   z-index:-1;*/
-}
 #img1{
   position:absolute;
    left:0px;
@@ -509,20 +500,10 @@ border-radius: 17%;
   display: none;
 }
 
-
-
-
-
-
-
-
 #paragraph{
-
   background-color: rgba(255, 255, 255, 0.7);
   border: 3px black solid;
   margin-top: 340px;
-
-
 }
 
 #prank {
@@ -534,6 +515,7 @@ border-radius: 17%;
    -webkit-border-radius: 10px;
    border-radius:         10px;
 }
+
 #prank:before {
    content:"";
    position: absolute;

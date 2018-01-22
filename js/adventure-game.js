@@ -27,7 +27,8 @@
 
 
  function startlevel(){
-   button4.onclick = tekstGAATweg;
+   console.log("startlevel geladen");
+    button4.onclick = tekstGAATweg;
     button1.innerHTML = "start";
     button1.onclick = level1;
     button1.style.left = "440px";
@@ -78,10 +79,11 @@ function level1(){
   button1.style.left = "15px";
   button1.innerHTML = 'Het verleden terug in gaan';
   button2.innerHTML = 'De toekomst in gaan'
-  head12.innerHTML = "Welke denk je dat het is kies voorzichtig!!";
+  head12.innerHTML = "Welke knop moet je kiezen om naar de tijdmachine te kunnen gaan die in een andere dimensie is. ";
   head12.style.padding = "15px"
   head12.style.marginLeft = '200px';
-  head12.style.width = "781px";
+  head12.style.width = "1081px";
+  head12.style.height = "101px";
   uitleg.style.display = "none";
   button1.onclick = keuze_tijd;
   button2.onclick = futurehome;
@@ -103,7 +105,7 @@ function level1(){
   giff.style.display ='none';
   head1.style.display = 'none';
   noway.style.image = "url('image/noway.gif')";
-
+  console.log("level1 geladen");
 }
 
 
@@ -124,6 +126,7 @@ function safe123() {
   head12.style.display = 'none';
   head1.style.display = 'inline-block';
   // noway.style.display ='none';
+  console.log("safelevel geladen");
 
 }
 
@@ -166,6 +169,7 @@ function Prank(){
   plant.style.display = "none";
   plant1.style.display = "none";
   flyingCar.style.display = "none";
+  console.log("faillevel geladen");
 
 }
 
@@ -193,6 +197,7 @@ function keuze_tijd() {
   img1.style.display= "inline";
   img2.style.display= "inline";
   head1.style.color = "black";
+  console.log("keuzentijdlevel geladen");
   trex.style.display = "inline";
  }
 
@@ -222,6 +227,8 @@ function prehstorie() {
 
     }
   }
+  console.log("prehestorielevel geladen");
+
   button2.onclick = Prank;
   tryAgain.onclick = goOn;
   // button2.onclick = keuze_tijd;
@@ -290,9 +297,8 @@ function prehstoriedzkDino() {
   x.style.left = "1100px";
   x.style.top = "340px";
   // runGif.style.display = "none";
-
+  console.log("prehstoriedzkDinolevel geladen");
   trex.style.display = "none";
-
   var x = document.createElement("img");
   x.setAttribute("src", "image/dontMove.gif");
   x.setAttribute("width", "280");
@@ -338,6 +344,7 @@ stone.style.display = "block";
 button1.onclick = Prank;
 tryAgain.onclick = goOn;
 img_album.style.display = "none";
+console.log("standstilllevel geladen");
 
 }
 
@@ -360,6 +367,7 @@ function dinoWegLokken(){
   button9.onclick = finalLevel;
   stone.style.display= "block";
   trex.style.display = "none";
+  console.log("dinoWegLokken level geladen");
 
 }
 
@@ -381,14 +389,8 @@ function finalLevel(){
   button2.style.display = "none";
   paragraph.style.display = "none";
   bar.style.display = "none";
-  // var buttonToWin = document.createElement("button");
-  // buttonToWin.setAttribute("id", "buttonToWin");
-  // document.body.appendChild(buttonToWin);
-  // buttonToWin.style.position = "absolute";
-  // buttonToWin.style.left = "1100px";
-  // buttonToWin.style.top = "340px";
-  // buttonToWin.style.height = "940px";
-  // buttonToWin.style.display = "inline-block";
+  console.log("finalLevel level geladen");
+
   buttonWin.style.display = "inline-block";
   trex.style.display = "none";
   plant.style.display = "none";
@@ -436,6 +438,7 @@ function boekopensFail(){
  button9.style.display = "none";
  buttonWin.style.display = "none";
  stone.style.display= "block";
+ console.log("boekopensFail level geladen");
 }
 
 function boekWin(){
